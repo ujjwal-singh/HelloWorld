@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
         squareOutput = (TextView) this.findViewById(R.id.squareOutput);
     }
 
+    /**
+     * Test
+     * @param view test.
+     */
     public void calculateSquare(View view) {
         Log.i(LOG_TAG, "Button Pressed called");
         String str = numberInput.getText().toString();
